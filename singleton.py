@@ -12,6 +12,6 @@ class Counter:
     def inc(self):
         self.count += 1
 
-print (type(Counter))    # <type 'classobj'>
+print (type(Counter)) 
 Counter = singleton(Counter)
 print (type(Counter))
